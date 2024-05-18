@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/amr4tarek/Cloud-Task.git'
+                git clone 'https://github.com/amr4tarek/cloud-2'
             }
         }
 
